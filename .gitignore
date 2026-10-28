@@ -1,0 +1,10 @@
+# big or re-downloadable data (the notebooks recreate these)
+data/raw/
+data/processed/chirps/
+data/processed/rain_daily.csv.gz
+data/processed/elevation_points_partial.csv
+data/processed/ds_divisions.gpkg
+tmp/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
