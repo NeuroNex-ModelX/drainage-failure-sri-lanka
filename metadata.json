@@ -1,7 +1,8 @@
 {
   "boundaries": "Survey Dept of Sri Lanka via OCHA/HDX (cod-ab-lka), CC BY-IGO",
-  "_updated": "2026-10-29 15:13",
+  "_updated": "2026-11-02 10:03",
   "flood_records": "DesInventar Sri Lanka, 1974-2013",
   "flood_last_year": 2013,
-  "rainfall": "CHIRPS v2.0 daily 0.05 deg via Google Earth Engine (UCSB-CHG/CHIRPS/DAILY), 1995-2025"
+  "rainfall": "CHIRPS v2.0 daily 0.05 deg, 1995-2025 (UCSB CHC)",
+  "elevation": "Open-Meteo elevation API (Copernicus DEM GLO-90), ~1 km sample grid"
 }
