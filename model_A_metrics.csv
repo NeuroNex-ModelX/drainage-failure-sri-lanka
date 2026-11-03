@@ -1,0 +1,6 @@
+model,ROC_AUC,PR_AUC,Brier,base_rate
+Baseline: rainfall only,0.852,0.015,0.002,0.0017
+Baseline: same month last year,0.528,0.003,0.005,0.0017
+Logistic regression,0.847,0.018,0.002,0.0017
+Random forest,0.832,0.007,0.002,0.0017
+XGBoost,0.836,0.007,0.002,0.0017

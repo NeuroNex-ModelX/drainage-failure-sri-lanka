@@ -1,11 +1,13 @@
 {
   "boundaries": "Survey Dept of Sri Lanka via OCHA/HDX (cod-ab-lka), CC BY-IGO",
-  "_updated": "2026-11-02 18:03",
+  "_updated": "2026-11-03 06:26",
   "flood_records": "DesInventar Sri Lanka, 1974-2014",
   "flood_last_year": 2014,
   "rainfall": "CHIRPS v2.0 daily 0.05 deg, 1995-2025 (UCSB CHC)",
   "elevation": "Open-Meteo elevation API (Copernicus DEM GLO-90), ~1 km sample grid",
   "tree_loss": "Global Forest Watch / Hansen et al., tree cover loss 2001-2025, by DS division",
   "drains": "OpenStreetMap waterways (Geofabrik extract), ODbL",
-  "census": "Census of Population and Housing 2024 (DCS): population (GN table summed to DS), households, piped water (A14), in-house toilet (A16), clean cooking fuel (A13)"
+  "census": "Census of Population and Housing 2024 (DCS): population (GN table summed to DS), households, piped water (A14), in-house toilet (A16), clean cooking fuel (A13)",
+  "model_A": "Logistic regression; test 2009-2013",
+  "dfs_period": "1995-2013"
 }
