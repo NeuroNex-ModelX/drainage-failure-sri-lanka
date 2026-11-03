@@ -1,8 +1,8 @@
 {
   "boundaries": "Survey Dept of Sri Lanka via OCHA/HDX (cod-ab-lka), CC BY-IGO",
-  "_updated": "2026-11-02 17:13",
-  "flood_records": "DesInventar Sri Lanka, 1974-2013",
-  "flood_last_year": 2013,
+  "_updated": "2026-11-02 18:03",
+  "flood_records": "DesInventar Sri Lanka, 1974-2014",
+  "flood_last_year": 2014,
   "rainfall": "CHIRPS v2.0 daily 0.05 deg, 1995-2025 (UCSB CHC)",
   "elevation": "Open-Meteo elevation API (Copernicus DEM GLO-90), ~1 km sample grid",
   "tree_loss": "Global Forest Watch / Hansen et al., tree cover loss 2001-2025, by DS division",
