@@ -1,9 +1,9 @@
 factor,share_in_top3
-hh_piped_water_share,0.66
-tree_loss_pct_2001_2024,0.6
-hh_clean_cooking_share,0.5
-tree_loss_pct_2015_2024,0.44
-drain_density,0.36
-stream_density,0.28
-hh_toilet_in_unit_share,0.1
-pop_density,0.06
+tree_loss_pct_2001_2024,1.0
+drain_density,0.9
+stream_density,0.3
+hh_piped_water_share,0.28
+hh_clean_cooking_share,0.22
+tree_loss_pct_2015_2024,0.2
+pop_density,0.08
+hh_toilet_in_unit_share,0.02

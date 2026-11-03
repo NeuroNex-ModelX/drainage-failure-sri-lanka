@@ -1,33 +1,334 @@
 pcode,main_cause_factor,main_cause,second_cause,failure_profile
-LK1109,tree_loss_pct_2001_2024,Low tree-cover loss,High piped-water coverage,Low tree-cover loss-driven
-LK1112,hh_piped_water_share,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK1115,hh_piped_water_share,High piped-water coverage,Low drain/canal density,Low tree-cover loss-driven
-LK1118,none,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1136,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK1230,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK1303,tree_loss_pct_2001_2024,Low tree-cover loss,High piped-water coverage,Low tree-cover loss-driven
-LK1306,tree_loss_pct_2001_2024,Low tree-cover loss,High piped-water coverage,Low tree-cover loss-driven
-LK1309,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1310,none,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1312,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1315,none,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1318,none,No clear human factor,,Lower failure (floods close to expected)
-LK1321,tree_loss_pct_2001_2024,Low tree-cover loss,High piped-water coverage,Low tree-cover loss-driven
-LK1324,hh_piped_water_share,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK1327,drain_density,Low drain/canal density,Low stream density,Lower failure (floods close to expected)
-LK1330,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1333,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK1336,hh_clean_cooking_share,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK1339,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK3103,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK3106,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
-LK3109,hh_clean_cooking_share,Low clean-cooking coverage,Low tree-cover loss,Low tree-cover loss-driven
-LK3112,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK3134,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK9103,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK9106,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected)
-LK9109,hh_clean_cooking_share,Low clean-cooking coverage,Low tree-cover loss,Low tree-cover loss-driven
-LK9127,hh_clean_cooking_share,Low clean-cooking coverage,Low tree-cover loss,Low tree-cover loss-driven
-LK9130,hh_clean_cooking_share,Low clean-cooking coverage,Low tree-cover loss,Low tree-cover loss-driven
-LK9221,hh_clean_cooking_share,Low clean-cooking coverage,Low drain/canal density,Low tree-cover loss-driven
-LK9230,none,Not failing (floods at or below expected),,Lower failure (floods close to expected)
+LK1103,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1106,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK1109,drain_density,High drain/canal density,High stream density,Lower failure (floods close to expected) (1)
+LK1112,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1115,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1118,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1121,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1124,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1127,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1130,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1131,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1133,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1136,drain_density,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK1203,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK1206,drain_density,High drain/canal density,Low tree-cover loss,High recent tree-cover loss-driven
+LK1209,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK1212,tree_loss_pct_2015_2024,High recent tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK1215,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1218,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK1221,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1224,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1227,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK1230,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1233,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1236,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK1239,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,Low tree-cover loss-driven
+LK1303,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK1306,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK1309,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1310,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1312,hh_piped_water_share,Low piped-water coverage,High stream density,High recent tree-cover loss-driven
+LK1315,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1318,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1321,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1324,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1327,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1330,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK1333,pop_density,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK1336,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK1339,hh_piped_water_share,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK2103,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,Low tree-cover loss-driven
+LK2106,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,Low tree-cover loss-driven
+LK2109,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,Low tree-cover loss-driven
+LK2112,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK2115,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2118,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2121,drain_density,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK2124,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2127,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK2130,stream_density,High stream density,High clean-cooking coverage,Lower failure (floods close to expected) (1)
+LK2133,tree_loss_pct_2001_2024,Low tree-cover loss,High stream density,Low tree-cover loss-driven
+LK2134,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2136,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK2139,tree_loss_pct_2001_2024,Low tree-cover loss,Low drain/canal density,Low tree-cover loss-driven
+LK2142,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2145,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2148,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2151,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2154,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK2157,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK2203,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2206,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK2209,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2212,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2215,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2218,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2221,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2224,hh_piped_water_share,Low piped-water coverage,Low clean-cooking coverage,High recent tree-cover loss-driven
+LK2227,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK2230,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2233,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,Low tree-cover loss-driven
+LK2303,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2306,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2309,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2312,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK2315,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2318,pop_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2321,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK2324,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK2327,stream_density,High stream density,Low drain/canal density,High recent tree-cover loss-driven
+LK2330,stream_density,High stream density,Low drain/canal density,High recent tree-cover loss-driven
+LK3103,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3106,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3109,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3112,pop_density,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK3115,hh_clean_cooking_share,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3118,tree_loss_pct_2001_2024,Low tree-cover loss,Low piped-water coverage,Lower failure (floods close to expected) (2)
+LK3121,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,Low tree-cover loss-driven
+LK3124,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK3127,hh_piped_water_share,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK3130,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3133,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3134,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3136,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3139,drain_density,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3142,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3145,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3148,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3151,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3154,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3157,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK3160,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3163,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3203,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK3206,tree_loss_pct_2001_2024,Low tree-cover loss,High stream density,Lower failure (floods close to expected) (2)
+LK3209,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK3212,tree_loss_pct_2015_2024,High recent tree-cover loss,Low piped-water coverage,High recent tree-cover loss-driven
+LK3215,hh_piped_water_share,Low piped-water coverage,High population density,High recent tree-cover loss-driven
+LK3218,tree_loss_pct_2001_2024,Low tree-cover loss,Low piped-water coverage,Lower failure (floods close to expected) (2)
+LK3221,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3224,drain_density,High drain/canal density,High recent tree-cover loss,Lower failure (floods close to expected) (1)
+LK3227,tree_loss_pct_2015_2024,High recent tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK3230,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK3233,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3236,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK3239,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3242,drain_density,High drain/canal density,High population density,Lower failure (floods close to expected) (1)
+LK3245,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3248,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3303,drain_density,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK3306,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3309,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK3315,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK3318,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK3321,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3324,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK3325,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3327,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3330,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK3333,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK4103,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK4104,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4106,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4109,hh_piped_water_share,Low piped-water coverage,High clean-cooking coverage,High recent tree-cover loss-driven
+LK4112,hh_clean_cooking_share,High clean-cooking coverage,High population density,Lower failure (floods close to expected) (1)
+LK4115,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4118,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4121,hh_piped_water_share,Low piped-water coverage,High drain/canal density,High recent tree-cover loss-driven
+LK4124,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK4127,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4130,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK4133,tree_loss_pct_2001_2024,Low tree-cover loss,High in-house toilet coverage,Low tree-cover loss-driven
+LK4136,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK4139,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK4142,tree_loss_pct_2001_2024,Low tree-cover loss,High piped-water coverage,Lower failure (floods close to expected) (2)
+LK4203,hh_toilet_in_unit_share,Low in-house toilet coverage,Low population density,High recent tree-cover loss-driven
+LK4206,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK4209,tree_loss_pct_2001_2024,Low tree-cover loss,High recent tree-cover loss,Low tree-cover loss-driven
+LK4212,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK4215,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4303,none,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4306,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4309,hh_piped_water_share,Low piped-water coverage,Low population density,High recent tree-cover loss-driven
+LK4312,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4403,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK4406,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK4409,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4412,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4415,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4418,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4503,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK4506,stream_density,High stream density,High drain/canal density,High recent tree-cover loss-driven
+LK4509,tree_loss_pct_2015_2024,High recent tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK4512,tree_loss_pct_2001_2024,Low tree-cover loss,Low drain/canal density,Low tree-cover loss-driven
+LK5103,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5104,hh_piped_water_share,Low piped-water coverage,High drain/canal density,Lower failure (floods close to expected) (1)
+LK5106,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5109,none,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5110,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5115,tree_loss_pct_2001_2024,Low tree-cover loss,High recent tree-cover loss,Low tree-cover loss-driven
+LK5118,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5121,stream_density,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK5124,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5127,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5130,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK5133,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK5136,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5139,pop_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK5203,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK5206,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5209,tree_loss_pct_2015_2024,High recent tree-cover loss,Low clean-cooking coverage,High recent tree-cover loss-driven
+LK5212,drain_density,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5215,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5216,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5218,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5221,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5225,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5227,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5230,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK5233,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5234,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5236,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5239,drain_density,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5242,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK5245,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK5248,drain_density,High drain/canal density,High stream density,High recent tree-cover loss-driven
+LK5251,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK5303,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5306,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5309,hh_toilet_in_unit_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5312,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5315,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5318,drain_density,High drain/canal density,Low population density,Lower failure (floods close to expected) (1)
+LK5321,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5324,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5327,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK5330,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK5333,hh_clean_cooking_share,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK6103,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6106,drain_density,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK6109,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6112,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK6115,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6118,drain_density,High drain/canal density,Low clean-cooking coverage,High recent tree-cover loss-driven
+LK6121,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK6124,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6127,drain_density,High drain/canal density,Low clean-cooking coverage,High recent tree-cover loss-driven
+LK6130,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK6133,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6136,drain_density,High drain/canal density,Low tree-cover loss,High recent tree-cover loss-driven
+LK6139,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6142,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK6145,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK6148,drain_density,High drain/canal density,Low clean-cooking coverage,High recent tree-cover loss-driven
+LK6149,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK6151,hh_piped_water_share,Low piped-water coverage,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6154,tree_loss_pct_2015_2024,High recent tree-cover loss,Low piped-water coverage,High recent tree-cover loss-driven
+LK6157,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6160,tree_loss_pct_2015_2024,High recent tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6163,tree_loss_pct_2001_2024,Low tree-cover loss,Low piped-water coverage,Lower failure (floods close to expected) (2)
+LK6166,tree_loss_pct_2015_2024,High recent tree-cover loss,Low tree-cover loss,High recent tree-cover loss-driven
+LK6169,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK6172,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6175,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK6178,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK6181,tree_loss_pct_2015_2024,High recent tree-cover loss,Low piped-water coverage,High recent tree-cover loss-driven
+LK6184,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK6187,tree_loss_pct_2015_2024,High recent tree-cover loss,Low piped-water coverage,High recent tree-cover loss-driven
+LK6206,tree_loss_pct_2001_2024,Low tree-cover loss,Low piped-water coverage,High recent tree-cover loss-driven
+LK6209,drain_density,High drain/canal density,Low clean-cooking coverage,High recent tree-cover loss-driven
+LK6212,hh_clean_cooking_share,Low clean-cooking coverage,Low piped-water coverage,Lower failure (floods close to expected) (1)
+LK6227,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK6230,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6233,tree_loss_pct_2001_2024,Low tree-cover loss,Low piped-water coverage,High recent tree-cover loss-driven
+LK6236,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6239,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK6242,tree_loss_pct_2001_2024,Low tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK6245,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK6248,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK7103,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7106,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7109,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7112,pop_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK7115,hh_piped_water_share,Low piped-water coverage,High drain/canal density,High recent tree-cover loss-driven
+LK7118,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7121,none,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7124,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7127,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7130,pop_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7133,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7136,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK7139,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK7142,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK7145,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK7148,tree_loss_pct_2015_2024,High recent tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK7151,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7154,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7157,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7160,drain_density,High drain/canal density,Low population density,Lower failure (floods close to expected) (1)
+LK7163,pop_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7166,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK7203,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK7206,hh_clean_cooking_share,Low clean-cooking coverage,High drain/canal density,High recent tree-cover loss-driven
+LK7209,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK7210,stream_density,High stream density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK7212,hh_clean_cooking_share,Low clean-cooking coverage,High drain/canal density,High recent tree-cover loss-driven
+LK7215,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK7218,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK8103,drain_density,High drain/canal density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK8106,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK8109,tree_loss_pct_2015_2024,High recent tree-cover loss,Low tree-cover loss,High recent tree-cover loss-driven
+LK8112,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK8115,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8118,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8119,pop_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8121,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK8124,tree_loss_pct_2001_2024,Low tree-cover loss,High recent tree-cover loss,High recent tree-cover loss-driven
+LK8127,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8130,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8133,hh_clean_cooking_share,High clean-cooking coverage,Low drain/canal density,Lower failure (floods close to expected) (1)
+LK8136,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK8139,hh_clean_cooking_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK8142,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8203,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8206,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK8209,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK8212,hh_clean_cooking_share,Low clean-cooking coverage,High drain/canal density,High recent tree-cover loss-driven
+LK8215,drain_density,High drain/canal density,Low population density,Lower failure (floods close to expected) (1)
+LK8218,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Lower failure (floods close to expected) (2)
+LK8221,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK8224,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,Low tree-cover loss-driven
+LK8227,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK8230,drain_density,High drain/canal density,Low tree-cover loss,Low tree-cover loss-driven
+LK8233,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Low tree-cover loss-driven
+LK9103,hh_piped_water_share,Not failing (floods at or below expected),,High recent tree-cover loss-driven
+LK9106,stream_density,High stream density,Low piped-water coverage,High recent tree-cover loss-driven
+LK9109,stream_density,High stream density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK9112,tree_loss_pct_2001_2024,Low tree-cover loss,High clean-cooking coverage,High recent tree-cover loss-driven
+LK9115,tree_loss_pct_2001_2024,Low tree-cover loss,Low population density,Lower failure (floods close to expected) (2)
+LK9118,tree_loss_pct_2001_2024,Low tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK9121,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK9124,tree_loss_pct_2001_2024,Low tree-cover loss,High drain/canal density,High recent tree-cover loss-driven
+LK9127,drain_density,High drain/canal density,High stream density,High recent tree-cover loss-driven
+LK9130,tree_loss_pct_2015_2024,High recent tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK9133,tree_loss_pct_2001_2024,Low tree-cover loss,Low population density,Lower failure (floods close to expected) (2)
+LK9136,stream_density,High stream density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK9139,tree_loss_pct_2001_2024,Low tree-cover loss,High population density,High recent tree-cover loss-driven
+LK9142,tree_loss_pct_2001_2024,Low tree-cover loss,High stream density,High recent tree-cover loss-driven
+LK9145,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK9148,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9151,tree_loss_pct_2001_2024,Low tree-cover loss,Low population density,Lower failure (floods close to expected) (2)
+LK9154,drain_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9203,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9206,tree_loss_pct_2015_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9209,tree_loss_pct_2001_2024,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK9212,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9215,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK9218,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9221,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (1)
+LK9224,hh_piped_water_share,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
+LK9227,stream_density,High stream density,High recent tree-cover loss,High recent tree-cover loss-driven
+LK9230,stream_density,High stream density,High population density,High recent tree-cover loss-driven
+LK9233,stream_density,Not failing (floods at or below expected),,Lower failure (floods close to expected) (2)
